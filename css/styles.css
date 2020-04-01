@@ -72,11 +72,12 @@ html, body{
 	background-color: black;
 	position: fixed;
 	z-index: 2;
-	opacity: 0.8;
+	opacity: 0.85;
 	width: 300px;
 	display: table;
 	margin-top: -30px;
 	display: none;
+	color: #c2c2c2;
 }
 
 #panel{
