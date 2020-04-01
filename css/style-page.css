@@ -42,15 +42,17 @@ html, body{
 
 }
 
-img{
-	float: left;
-	clear: both;
-	width: 450px;
-	
-	margin: 10px 20px 0px 5px;
-}
 
 @media (min-width: 1200px) {
+	img{
+		float: left;
+		clear: both;
+		width: 450px;
+		
+		margin: 10px 20px 0px 5px;
+	}
+
+
 	#main-text{
 		margin-left: 300px;
 		margin-right: 300px;
@@ -67,6 +69,14 @@ img{
 	}
 }
 @media (max-width: 1199px){
+	img{
+		float: left;
+		clear: both;
+		width: 300px;
+		
+		margin: 10px 20px 0px 5px;
+	}
+
 	#main-text{
 		margin-left: 20px;
 		margin-right: 20px;
