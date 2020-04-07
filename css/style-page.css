@@ -17,7 +17,7 @@ html, body{
 	color: black;
 	background-image: url(https://html5book.ru/wp-content/uploads/2016/09/background74.jpg);
 	width: 102%;
-	height: 100%;
+	display: table;
 
 }
 #header{
@@ -58,15 +58,13 @@ html, body{
 		margin-right: 450px;
 	}
 	#info-block{
-		position: fixed;
-		width: 250px;
-		height: 500px;
-		background-color: #B9E7F8;
-		border-radius: 10px;
-		margin-left: 2%;
-		margin-top: 10%;
-		 
+		display: block;
 	}
+	#info-block1{
+		display: none;
+	}
+	
+	
 }
 @media (max-width: 1199px){
 	img{
@@ -80,6 +78,12 @@ html, body{
 	#main-text{
 		margin-left: 20px;
 		margin-right: 20px;
+	}
+	#info-block{
+		display: none;
+	}
+	#info-block1{
+		display: block;
 	}
 }
 
@@ -97,10 +101,31 @@ html, body{
 	display: flex;
 	justify-content: flex-end;
 }
+
 #info-block{
+	position: fixed;
+	width: 250px;
+	height: 500px;
+	background-color: #B9E7F8;
+	border-radius: 10px;
+	margin-left: 2%;
+	margin-top: 10%;
 	font-size: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 	width: 200px;
 	padding-top: 10px;
 }
+#info-block1{
+		position: absolute;
+		width: 400px;
+		height: 150px;
+		text-align: center;
+		background-color: #B9E7F8;
+		border-radius: 10px;
+		margin-left: 2%;
+		margin-top: 10%;
+		z-index: 99;
+
+		 
+	}
