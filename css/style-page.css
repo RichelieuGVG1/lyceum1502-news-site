@@ -1,5 +1,5 @@
 *{
-	font-family: Arial;
+	font-family: Brush Script MT,cursive;;
 	/*all tags*/ 
 	text-decoration: none;
 	
@@ -96,4 +96,7 @@ html, body{
 	position: fixed;
 	display: flex;
 	justify-content: flex-end;
+}
+#info-block{
+	font-size: 
 }
