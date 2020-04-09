@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ПАСХАЛОЧКА!</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+			align-items: center;
+			display: flex;
+			justify-content: center;
+		}
+		img{
+			width: 100%;
+			height: 100%;
+		}
+		h1{
+			position: absolute;
+			margin-top: -300px;
+			text-align: center;
+			color: white;
+			font-size: 50px;
+		}
+
+	</style>
+	<script type="text/javascript">
+		var images=["https://www.thesun.co.uk/wp-content/uploads/2016/11/nintchdbpict000003106925-e1479985809389.jpg","https://cdn.britannica.com/38/200938-050-E22981D1/Freddie-Mercury-Live-Aid-Queen-Wembley-Stadium-July-13-1985.jpg","https://clck.ru/MmP2a"
+		]
+		var num=0;
+		function cat(){
+			document.getElementById("hi").style.display = "none";
+			var audio=new Audio;
+			audio.src='queen.mp3';
+			audio.autoplay=true;
+
+		}
+		function nex(){
+			
+			var slider=document.getElementById('slider');
+			num++;
+			if(num>=images.length){
+				num=0;
+			}
+			slider.src=images[num];
+		}
+	</script>
+	
+</head>
+<body>
+	<h1 id='hi' onclick='cat()'>CLICK HERE AND ON IMAGE</h1>
+<img onclick='nex()' id='slider' src="https://www.thesun.co.uk/wp-content/uploads/2016/11/nintchdbpict000003106925-e1479985809389.jpg">
+   
+
+
+</body>
+</html>
