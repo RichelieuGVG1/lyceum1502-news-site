@@ -25,6 +25,8 @@ html, body{
 	font-size: 45px;
 	text-align: center;
 	padding-top: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 #sep-line{
 	border-top: 1px solid black;
