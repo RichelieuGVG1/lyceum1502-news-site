@@ -56,4 +56,3 @@ if (!visits)
 else
 	visits = parseInt(visits) + 1
 setCookie("counter", visits, now)
-document.write("You have been here " + visits + " time(s).")
