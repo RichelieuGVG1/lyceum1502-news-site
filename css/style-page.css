@@ -73,7 +73,7 @@ html, body{
 		clear: both;
 		width: 95%;
 		
-		margin: 10px 20px 0px 5px;
+		margin: 10px 20px 0px 5px; /* верх право низ лево*/
 	}
 
 	#main-text{
@@ -129,7 +129,6 @@ html, body{
 	text-align: center;
 	background-color: #B9E7F8;
 	border-radius: 10px;
-	margin-left: 2%;
 	margin-top: 10%;
 	z-index: 99;
 	padding-left: 10px;
